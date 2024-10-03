@@ -1,4 +1,4 @@
-so # TechLib
+# TechLib
 
 ERD Diagram
 
