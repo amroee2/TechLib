@@ -1,4 +1,4 @@
-# TechLib
+so # TechLib
 
 ERD Diagram
 
@@ -94,3 +94,8 @@ Simply checks 2 conditions
 
 2- If the current date is bigger than due date AND that date returned is Null
 
+# Bonus question
+
+Use DateName to find day of the week, select count and calculate the percentage (time it by 1.0 to make it decimal) 
+
+group by the day and order by the percentage, and then simply select top 3
