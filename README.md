@@ -75,6 +75,7 @@ Simply a procedure that accepts the start and end dates, and uses where to check
 Just uses case statements to check if its currently available or loaned to determine "StuatusChange", and then uses GETDATE() to get the current time 
 
 Assume these two rows
+
 ![image](https://github.com/user-attachments/assets/6d886587-bf4b-4f5b-95d6-915443425b91)
 
 after updating them
