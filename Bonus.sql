@@ -1,4 +1,4 @@
-SELECT
+SELECT TOP 3
     DATENAME(WEEKDAY, Loans.[Date Borrowed]) AS DayOfWeek, 
     COUNT(*) AS Count, 
     (COUNT(*) * 1.0 / (SELECT COUNT(*) FROM Loans)) * 100 AS Percentage
