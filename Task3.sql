@@ -11,5 +11,3 @@ JOIN
     ON Borrowers.BorrowerId = Loans.BorrowerId
 GROUP BY 
     Borrowers.BorrowerId, Borrowers.[First Name], Borrowers.[Last Name]
-ORDER BY 
-    NumberOfLoans DESC;
