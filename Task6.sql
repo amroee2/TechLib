@@ -1,4 +1,5 @@
-CREATE FUNCTION fn_CalculateOverdueFees(
+CREATE OR ALTER FUNCTION fn_CalculateOverdueFees(
+
 	@id INT
 )
 RETURNS INT AS
