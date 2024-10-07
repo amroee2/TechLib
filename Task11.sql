@@ -1,6 +1,6 @@
-DROP PROCEDURE IF EXISTS sp_BorrowedBooksReport;
-GO
-CREATE PROCEDURE sp_BorrowedBooksReport (
+
+CREATE OR ALTER PROCEDURE sp_BorrowedBooksReport (
+
 	@Start_Date DATE,
 	@End_Date DATE
 )
