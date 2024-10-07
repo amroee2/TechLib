@@ -1,6 +1,6 @@
-DROP PROCEDURE IF EXISTS insertBorrower;
-GO
-CREATE PROCEDURE insertBorrower (
+
+CREATE OR ALTER PROCEDURE insertBorrower (
+
     @First_Name    VARCHAR(50),
     @Last_Name     VARCHAR(50),
     @Email         VARCHAR(50),
